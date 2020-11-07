@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body { width: 969px; margin: auto; color: #424242; font-family: sans-serif;}
+        
+        .spoiler button { background-color: #b9e937; border: none; border: 1px solid #00b906; cursor: pointer;}
+        .spoiler-content { display: inline-block; width: 0; height: 0; opacity: 0; overflow: hidden; transition: opacity 0.5s;}
+        .spoiler-content.visible { display: inline; width: auto; height: auto; opacity: 1;}
+
+    </style>
+</head>
+<body>
+    <h1>TP Spoiler System </h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, obcaecati doloremque nobis ut, deleniti quod voluptatibus suscipit laborum repudiandae aut, enim temporibus provident ipsam numquam itaque repellat reiciendis sequi tempora.</p>
+
+    <p class="spoiler">Mister 'X' was found in a dark zone where mysterious events had occured. That part is the spoiler event !</p>
+
+    <p>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab neque labore, tenetur libero incidunt sunt assumenda, dignissimos excepturi, pariatur minus ea in cupiditate architecto. Consequatur fugiat aliquam fuga consequuntur maiores!</span>
+
+        <span>Lorem ipsum dolor sit amet consectetur <span class="spoiler">Another event that happenned in this story was that this section is also a spoiler event that must be hidden !</span> adipisicing elit. Ab neque labore, tenetur libero incidunt sunt assumenda, dignissimos excepturi, pariatur minus ea in cupiditate architecto. Consequatur fugiat aliquam fuga consequuntur maiores!</span>
+
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab neque labore, tenetur libero incidunt sunt assumenda, dignissimos excepturi, pariatur minus ea in cupiditate architecto. Consequatur fugiat aliquam fuga consequuntur maiores!</span>
+    </p>
+
+    <script src="spoiler.js"></script>
+</body>
+</html>
